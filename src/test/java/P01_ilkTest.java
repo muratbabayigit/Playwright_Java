@@ -21,7 +21,7 @@ public class P01_ilkTest {
             Page page = context.newPage();
             //page.setViewportSize(width,height);
 
-            page.navigate("http://playwright.dev");
+            page.navigate("https://www.wisequarter.com");
             System.out.println(page.title());
 
 

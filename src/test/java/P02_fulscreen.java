@@ -17,7 +17,7 @@ public class P02_fulscreen {
     Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
     Page page = browser.newPage();
 
-    page.navigate("https://www.hepsiburada.com/");
+    page.navigate("https://www.testotomasyonu.com/");
 
     page.setViewportSize(width,height);
 

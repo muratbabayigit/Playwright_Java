@@ -38,7 +38,7 @@ public class P06_IframeWithUrl {
         body.clear();
 
         Locator  inputText = frame.getByLabel("Rich Text Area. Press ALT-0 for help.");
-        inputText.fill("hello world");
+        inputText.fill("hello wise");
 
         Thread.sleep(2000);
 
